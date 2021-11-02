@@ -3,13 +3,13 @@
 <meta charset="UTF-8">
 <title>Page Title</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="../css/mdb.min.css" type="text/css">
-<script src="../js/mdb.min.js"></script>
+<link rel="stylesheet" href="./resources/css/mdb.min.css" type="text/css">
+<script src="./resources/js/mdb.min.js"></script>
 <body>
 
 <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand">Navbar</a>
+        <a class="navbar-brand">WorldsFoods</a>
         <form class="d-flex input-group w-auto">
             <input
                     type="search"
