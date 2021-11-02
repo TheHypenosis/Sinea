@@ -4,7 +4,7 @@ version: '3.9'
 services:
 
   web:
-    container_name: php_web
+    container_name: php_web_sinea
     depends_on:
       - db
     ports:
@@ -15,13 +15,14 @@ services:
     volumes:
       - ./:/var/www/html/
 
+
   db:
-    container_name: mysql
+    container_name: mysql_sinea
     image: mysql:8.0
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
-        MYSQL_DATABASE: aurora 
+        MYSQL_DATABASE: sinea
         MYSQL_ALLOW_EMPTY_PASSWORD: 1
     volumes:
       - ./db:/docker-entrypoint-initdb.d
